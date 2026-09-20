@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": [
+    "hides-and-handcrafts:cow_hide"
+  ],
+  "result": {
+    "id": "hides-and-handcrafts:tanned_hide",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 200
+}

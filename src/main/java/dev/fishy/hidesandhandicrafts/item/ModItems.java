@@ -28,6 +28,14 @@ public class ModItems {
 
     public static final Item COW_HIDE =
             register(COW_HIDE_KEY, Item::new, new Item.Properties());
+    public static final ResourceKey<Item> TANNED_HIDE_KEY =
+            ResourceKey.create(
+                    Registries.ITEM,
+                    Identifier.fromNamespaceAndPath("hides-and-handcrafts", "tanned_hide")
+            );
+
+    public static final Item TANNED_HIDE =
+            register(TANNED_HIDE_KEY, Item::new, new Item.Properties());
     public static final Item FIELD_DRESSING_TOOL =
             register(
                     FIELD_DRESSING_TOOL_KEY,
