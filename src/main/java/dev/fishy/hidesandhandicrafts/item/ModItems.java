@@ -25,7 +25,35 @@ public class ModItems {
                     Registries.ITEM,
                     Identifier.fromNamespaceAndPath("hides-and-handcrafts", "cow_hide")
             );
+    public static final ResourceKey<Item> SATCHEL_KEY =
+            ResourceKey.create(
+                    Registries.ITEM,
+                    Identifier.fromNamespaceAndPath("hides-and-handcrafts", "satchel")
+            );
 
+
+    public static final Item SATCHEL =
+            register(
+                    SATCHEL_KEY,
+                    SatchelItem::new,
+                    new Item.Properties()
+                            .stacksTo(1)
+                            .component(ModDataComponents.SATCHEL_CONTENTS, SatchelContents.EMPTY)
+            );
+    public static final ResourceKey<Item> COW_SATCHEL_KEY =
+            ResourceKey.create(
+                    Registries.ITEM,
+                    Identifier.fromNamespaceAndPath("hides-and-handcrafts", "cow_satchel")
+            );
+
+    public static final Item COW_SATCHEL =
+            register(
+                    COW_SATCHEL_KEY,
+                    SatchelItem::new,
+                    new Item.Properties()
+                            .stacksTo(1)
+                            .component(ModDataComponents.SATCHEL_CONTENTS, SatchelContents.EMPTY)
+            );
     public static final Item COW_HIDE =
             register(COW_HIDE_KEY, Item::new, new Item.Properties());
     public static final ResourceKey<Item> TANNED_HIDE_KEY =

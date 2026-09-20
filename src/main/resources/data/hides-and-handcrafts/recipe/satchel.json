@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["S S", "HGH", " H "],
+  "key": {
+    "S": "minecraft:string",
+    "G": "minecraft:gold_ingot",
+    "H": "hides-and-handcrafts:tanned_hide"
+  },
+  "result": {
+    "id": "hides-and-handcrafts:satchel",
+    "count": 1
+  }
+}

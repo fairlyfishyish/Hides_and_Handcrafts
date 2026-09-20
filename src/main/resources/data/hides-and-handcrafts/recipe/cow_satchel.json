@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["S S", "HGH", " H "],
+  "key": {
+    "S": "minecraft:string",
+    "G": "minecraft:gold_ingot",
+    "H": "hides-and-handcrafts:cow_hide"
+  },
+  "result": {
+    "id": "hides-and-handcrafts:cow_satchel",
+    "count": 1
+  }
+}
