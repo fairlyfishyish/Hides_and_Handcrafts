@@ -26,7 +26,7 @@ public class HidesAndHandcrafts implements ModInitializer {
 		ModItems.initialize();
 		ServerEntityCombatEvents.AFTER_KILLED_OTHER_ENTITY.register((world, killer, killed, source) -> {
 			if (killer instanceof Player player && killed instanceof Cow && player.getMainHandItem().is(ModItems.FIELD_DRESSING_TOOL)) {
-				world.addFreshEntity(new ItemEntity(world, killed.getX(), killed.getY(), killed.getZ(), new ItemStack(Items.SPONGE)));
+				world.addFreshEntity(new ItemEntity(world, killed.getX(), killed.getY(), killed.getZ(), new ItemStack(ModItems.COW_HIDE)));
 			}
 		});
 
