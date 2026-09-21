@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["  I", " S ", "L  "],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "S": "minecraft:stick",
+    "L": "minecraft:leather"
+  },
+  "result": {
+    "id": "hides-and-handcrafts:field_dressing_tool",
+    "count": 1
+  }
+}
