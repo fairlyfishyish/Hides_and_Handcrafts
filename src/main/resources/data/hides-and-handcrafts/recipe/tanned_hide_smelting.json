@@ -1,8 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "ingredient": [
-    "hides-and-handcrafts:cow_hide"
-  ],
+  "ingredient": "#hides-and-handcrafts:tannable_hides",
   "result": {
     "id": "hides-and-handcrafts:tanned_hide",
     "count": 1
