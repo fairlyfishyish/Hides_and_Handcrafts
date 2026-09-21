@@ -25,6 +25,11 @@ public class ModItems {
                     Registries.ITEM,
                     Identifier.fromNamespaceAndPath("hides-and-handcrafts", "cow_hide")
             );
+    public static final ResourceKey<Item> PIG_HIDE_KEY =
+            ResourceKey.create(
+                    Registries.ITEM,
+                    Identifier.fromNamespaceAndPath("hides-and-handcrafts", "pig_hide")
+            );
     public static final ResourceKey<Item> SATCHEL_KEY =
             ResourceKey.create(
                     Registries.ITEM,
@@ -56,6 +61,8 @@ public class ModItems {
             );
     public static final Item COW_HIDE =
             register(COW_HIDE_KEY, Item::new, new Item.Properties());
+    public static final Item PIG_HIDE =
+            register(PIG_HIDE_KEY, Item::new, new Item.Properties());
     public static final ResourceKey<Item> TANNED_HIDE_KEY =
             ResourceKey.create(
                     Registries.ITEM,
