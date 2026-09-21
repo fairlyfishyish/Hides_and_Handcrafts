@@ -5,7 +5,7 @@
     "L": "minecraft:lead",
     "G": "minecraft:gold_ingot",
     "H": "hides-and-handcrafts:tanned_hide",
-    "N": "hides-and-handcrafts:golden_nugget"
+    "N": "minecraft:gold_nugget"
   },
   "result": {
     "id": "hides-and-handcrafts:satchel",

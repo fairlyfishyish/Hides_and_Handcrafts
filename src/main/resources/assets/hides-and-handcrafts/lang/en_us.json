@@ -4,5 +4,6 @@
   "item.hides-and-handcrafts.pig_hide": "Pig Hide",
   "item.hides-and-handcrafts.tanned_hide": "Tanned Hide",
   "item.hides-and-handcrafts.satchel": "Satchel",
-  "item.hides-and-handcrafts.cow_satchel": "Cow Satchel"
+  "item.hides-and-handcrafts.cow_satchel": "Cow Satchel",
+  "itemGroup.hides-and-handcrafts.hides_and_handcrafts": "Hides & Handcrafts"
 }

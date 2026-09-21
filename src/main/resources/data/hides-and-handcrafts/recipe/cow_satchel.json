@@ -1,11 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": ["S S", "HGH", " H "],
+  "pattern": ["NLN", "HGH", " H "],
   "key": {
-    "S": "minecraft:string",
+    "L": "minecraft:lead",
     "G": "minecraft:gold_ingot",
-    "H": "hides-and-handcrafts:cow_hide"
+    "H": "hides-and-handcrafts:cow_hide",
+    "N": "minecraft:gold_nugget"
   },
   "result": {
     "id": "hides-and-handcrafts:cow_satchel",

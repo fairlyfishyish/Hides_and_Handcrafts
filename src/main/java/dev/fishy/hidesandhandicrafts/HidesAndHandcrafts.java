@@ -1,6 +1,7 @@
 package dev.fishy.hidesandhandicrafts;
 
 import dev.fishy.hidesandhandicrafts.item.ModDataComponents;
+import dev.fishy.hidesandhandicrafts.item.ModItemGroups;
 import dev.fishy.hidesandhandicrafts.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.entity.event.v1.ServerEntityCombatEvents;
@@ -28,7 +29,7 @@ public class HidesAndHandcrafts implements ModInitializer {
 	public void onInitialize() {
 		ModItems.initialize();
 		ModDataComponents.initialize();
-
+		ModItemGroups.initialize();
 		ServerEntityCombatEvents.AFTER_KILLED_OTHER_ENTITY.register((world, killer, killed, source) -> {
 			if (killer instanceof Player player && player.getMainHandItem().is(ModItems.FIELD_DRESSING_TOOL)) {
 				Item hide = ANIMAL_TO_HIDE.get(killed.getType());
